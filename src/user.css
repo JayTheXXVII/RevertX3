@@ -1,0 +1,109 @@
+/*Spice-color*/
+:root {
+--spice-button-active: var(--spice-color) !important;
+--spice-button: var(--spice-color) !important;
+--background-base: var(--spice-color) !important;
+--is-active-fg-color: var(--spice-color) !important;
+--spice-button: var(--spice-color) !important;
+--is-active-fg-color: var(--spice-color) !important;
+--spice-button-active: var(--spice-color) !important;
+--lyrics-color-active: var(--spice-color) !important;
+--background-highlight: var(--spice-color) !important;
+/*--eq-spice: var(--eq-red);*//*<<<---------------Change This to change the Default colour of the Now Plaing EQ Animated Gif---------------<<<*/
+--eq-red:  url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-red.gif) !important;
+--eq-green: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-green.gif) !important;
+--eq-blue: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-blue.gif) !important;
+--eq-orange: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-orange.gif) !important;
+--eq-yellow: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-yellow.gif) !important;
+--eq-purple: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-purple.gif) !important;
+--eq-magenta: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-magenta.gif) !important;
+--eq-pink: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-pink.gif) !important;
+--eq-white: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-white.gif) !important;}
+img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([src="/images/equaliser-animated-green.gif"])::before {content: var(--eq-spice) !important;}
+
+/*RevertX3*/
+/*Top Nav*/.Root__globalNav {background-color: #121212;  margin: unset !important; padding: calc(var(--panel-gap));}
+div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !important;}
+.Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 9999;}
+[data-right-sidebar-hidden=true] .Root__main-view, .Root__main-view {margin-top: -64px;}
+.main-topBar-container {top: 0px; padding-top: 100px; padding-bottom: 28px;}
+.Root__globalNav {background-color: transparent;}
+.main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 15px !important;}
+.main-userWidget-box {background-color: transparent !important;}
+.main-home-filterChipsContainer {padding-top: 72px; position: sticky; z-index: 999999;}
+/*Top Bar Drag*/
+.spotify__container--is-desktop:not(.fullscreen) .body-drag-top {display: flex;  position: fixed; -webkit-app-region: drag !important;}
+.Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 12;}
+.spotify__container--is-desktop:not(.fullscreen) .main-topBar-background, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-container>*, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-background, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-container>* {-webkit-app-region: unset !important; app-region: unset !important;}
+/*Buttons*/.Root__globalNav .main-globalNav-navLink {background-color: #0f0f0f80;} .e-91000-button-primary:hover .e-91000-button-primary__inner {background-color: var(--spice-color); filter: drop-shadow(2px 4px 6px black);}
+/*Search*/.main-globalNav-searchInputContainer .main-topBar-searchBar {background: transparent !important;} .e_N7UqrrJQ0fAw9IkNAL {padding-top: 64px !important;} .tyPeARr1PSxTUMloPfkQ {grid-column: span 1 !important;}
+/*Main Padding*/.Root__top-container {padding: 0px !important;}
+.Root__now-playing-bar {padding-top: unset !important;}
+.Root__top-container {padding: 0px !important; gap: 0px !important;}
+/*Liked Songs*/.Tksg0me7_NZleE3XZpr9 {-webkit-transform: unset !important ;transform: unset !important;}
+.main-nowPlayingView-headerCloseButton {order: 3; padding-inline: 8px !important; margin-inline-start: 8px !important;}
+/*Border-Radius*/
+aside#Desktop_PanelContainer_Id, .Root__nav-bar, .Root__right-sidebar aside {--section-border-radius: 0px !important; border-top-left-radius: 8px;border-top-right-radius: 8px;}
+.x0lJCeJrx_56dJTWdATl {border-radius: 0px;}
+.Root__main-view {border-radius: 0px !important;}
+/*Cinema View Black Outline*/
+.Root__cinema-view._3_LWNvctz6LK865o0Fvg {outline: 0px solid transparent !important;}
+/*Left Sidebar Background*/
+.main-yourLibraryX-libraryContainer, .UCyimCp8rEfL5nB8paBu {background-color: black;}
+/*Layout Resizer*/.LayoutResizer__inline-end:after, .LayoutResizer__inline-start:after {height: calc(150% - 0px) !important;}
+/*Now Playing Bar*/
+.Root__now-playing-bar {background-color: var(--background-base)}
+.main-nowPlayingBar-nowPlayingBar, .MfKPo1Td_7mXkJB911JT {padding: 4px; margin-top: 4px; margin-bottom: 4px;}
+.main-nowPlayingBar-right {display: flex !important;}
+/*SpicyLyrics*/
+div#main-view:has(.LyricsContainer) {margin-top: -68px;}
+.Root__main-view:has(#SpicyLyricsPage), .Root__main-view:has(#SpicyLyricsPage) .KL8t9WB65UfUEPuTFAhO, .Root__main-view:has(#SpicyLyricsPage) .main-content-view, .Root__main-view:has(#SpicyLyricsPage) .main-view-container, .Root__main-view:has(#SpicyLyricsPage) .main-view-container__scroll-node, .Root__main-view:has(#SpicyLyricsPage) .main-view-container {height: 110% !important;}
+#SpicyLyricsPage .ViewControls .ViewControl {margin-top: 50px;}
+/*Marketplace*/
+.main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: -10px;}
+.marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
+/*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
+.main-topBar-topbarContentWrapper {max-width: 75%;}
+/*Playlist Page*/
+/*main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}*/
+/*Album & Playlist Page*/
+.main-entityHeader-container.main-entityHeader-containerNormal {min-height: calc(var(--min-fluid-height) * 1.2) !important;}
+.main-entityHeader-container.main-entityHeader-containerNormal {margin-top: 32px;}
+.main-entityHeader-backgroundColor {margin-top: -32px; min-height: -webkit-fill-available;}
+/*Settings Page*/
+[data-testid="settings-page"] {padding-top: 88px;}
+/*Scrollbar*/
+.spotify__container--is-desktop.spotify__os--is-windows .main-view-container__scroll-node>.os-scrollbar-vertical {top: 65px !important;}
+.os-theme-spotify.os-scrollbar {min-width: 10px !important; --os-handle-min-size: 100px;}
+/*Drag*/
+.main-globalNav-historyButtonsContainer, .XkJKUsFLQrqnS2jNdVe4 {app-region: drag;}
+/*.main-globalNav-searchInputSection, .Root__globalNav .main-globalNav-navLink, button.Button-sc-1dqy6lx-0.Button-buttonTertiary-medium-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.link-subtle.main-globalNav-navLink.main-globalNav-link-icon.custom-navlink {app-region: no-drag !important;}*/
+
+/*RTLx3*/
+/*Right Sidebar*/
+.Root__right-sidebar {grid-area: left-sidebar !important; min-inline-size: -webkit-fill-available !important; width: calc(var(--zoom-level) * 0px) !important;}
+/*Pointer Events*/
+.Root__right-sidebar {pointer-events: none;}
+aside#Desktop_PanelContainer_Id {pointer-events: auto;}
+/*Right Sidebar Left Layout Resizer*/
+.LayoutResizer__inline-start {visibility: hidden !important;}
+/*Album Art on Canvas*/
+.u_oJcTzbq1mJ8qfhBggZ .DyIlapjoCthUuSOzmJGD {opacity: 90% !important; visibility: visible !important; z-index: 1 !important;}
+/*RTL Scaling/ Alignment*/
+.oXO9_yYs6JyOwkBn8E4a {aspect-ratio: 1 / 1.13;}
+.oXO9_yYs6JyOwkBn8E4a:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {margin-bottom: 0px !important; align-self: end; min-inline-size: -webkit-fill-available;}
+.Root__right-sidebar:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {align-self:flex-end;justify-content: center; z-index: 5 !important;}
+/*More Options Button*/
+button.Button-sc-1dqy6lx-0.Button-buttonTertiary-small-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.yiRHu4qsmlXpKcnFQsm2[aria-haspopup="menu"] {display: none !important;}
+/*RTL Close Button*/.NowPlayingView:not(:hover):not(:has(:focus-visible)) .main-nowPlayingView-headerCloseButton {transform: unset !important;}
+[d="M10.03 10.53a.75.75 0 1 1-1.06-1.06L10.44 8 8.97 6.53a.75.75 0 0 1 1.06-1.06l2 2a.75.75 0 0 1 0 1.06z"] {display: none;}
+[d="M15 16a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm-8.5-1.5v-13h8v13zm-1.5 0H1.5v-13H5z"]{d: path("M 2.47 2.47 a 0.75 0.75 0 0 1 1.06 0 L 8 6.94 l 4.47 -4.47 a 0.75 0.75 0 1 1 1.06 1.06 L 9.06 8 l 4.47 4.47 a 0.75 0.75 0 1 1 -1.06 1.06 L 8 9.06 l -4.47 4.47 a 0.75 0.75 0 0 1 -1.06 -1.06 L 6.94 8 L 2.47 3.53 a 0.75 0.75 0 0 1 0 -1.06");}
+/*Devices*/
+.oXO9_yYs6JyOwkBn8E4a {min-width: -webkit-fill-available !important;}
+.FNi2RAtuzIc9THq8HYIW.qzdTjGAQRC8wD24IVpoA {padding: 8px 16px !important;}
+
+
+
+
+
+

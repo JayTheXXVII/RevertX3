@@ -36,7 +36,7 @@ div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !imp
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 12;}
 .spotify__container--is-desktop:not(.fullscreen) .main-topBar-background, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-container>*, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-background, .spotify__container--is-desktop:not(.fullscreen) .main-topBar-container>* {-webkit-app-region: unset !important; app-region: unset !important;}
 /*Buttons*/.Root__globalNav .main-globalNav-navLink {background-color: #0f0f0f80;} .e-91000-button-primary:hover .e-91000-button-primary__inner {background-color: var(--spice-color); filter: drop-shadow(2px 4px 6px black);}
-/*Search*/.main-globalNav-searchInputContainer .main-topBar-searchBar {background: transparent !important;} .e_N7UqrrJQ0fAw9IkNAL {padding-top: 64px !important;} .tyPeARr1PSxTUMloPfkQ {grid-column: span 1 !important;} .main-globalNav-searchInputContainer .main-topBar-searchBar:placeholder-shown {text-align: center;}
+/*Search*/.main-globalNav-searchInputContainer .main-topBar-searchBar {background: transparent !important;} .e_N7UqrrJQ0fAw9IkNAL {padding-top: 64px !important;} .tyPeARr1PSxTUMloPfkQ {grid-column: span 1 !important;} .main-globalNav-searchInputContainer .main-topBar-searchBar:placeholder-shown, .main-globalNav-searchInputContainer .main-topBar-searchBar:focus {text-align: center;}
 /*Main Padding*/.Root__top-container {padding: 0px !important;}
 .Root__now-playing-bar {padding-top: unset !important;}
 .Root__top-container {padding: 0px !important; gap: 0px !important;}

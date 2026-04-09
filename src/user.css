@@ -63,7 +63,7 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 #SpicyLyricsPage .ViewControls .ViewControl {margin-top: 50px;}
 /*Marketplace*/
 .main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: -10px;}
-.marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
+.marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px; position: relative !important;}
 /*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
 .main-topBar-topbarContentWrapper {max-width: 75%;}
 /*Playlist Page*/

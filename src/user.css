@@ -64,6 +64,7 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 /*Marketplace*/
 .main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: -10px;}
 .marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px; position: relative !important;}
+/*Better Local Files*/ .app-module__pad-top___8OIp9_betterDlocalDfiles {padding-top: 144px !important;}
 /*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
 .main-topBar-topbarContentWrapper {max-width: 75%;}
 /*Playlist Page*/

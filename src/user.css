@@ -50,6 +50,8 @@ aside#Desktop_PanelContainer_Id, .Root__nav-bar, .Root__right-sidebar aside {--s
 .Root__cinema-view._3_LWNvctz6LK865o0Fvg {outline: 0px solid transparent !important;}
 /*Left Sidebar Background*/
 .main-yourLibraryX-libraryContainer, .UCyimCp8rEfL5nB8paBu {background-color: black;}
+/*Left Sidebar Playlist Padding*/
+.ypMcUr3T8yEiOFBVWe9I {padding: 8px;}
 /*Layout Resizer*/.LayoutResizer__inline-end:after, .LayoutResizer__inline-start:after {height: calc(150% - 0px) !important;}
 /*Now Playing Bar*/
 .Root__now-playing-bar {background-color: var(--background-base)}

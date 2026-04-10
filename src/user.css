@@ -19,7 +19,7 @@
 --eq-magenta: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-magenta.gif) !important;
 --eq-pink: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-pink.gif) !important;
 --eq-white: url(https://raw.githubusercontent.com/JayTheXXVII/RevertX3/refs/heads/main/assets/equaliser-animated-white.gif) !important;}
-img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([src="/images/equaliser-animated-green.gif"])::before {content: var(--eq-spice) !important;}
+img.H70qcBekoGWOlskuON5R, img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([src="/images/equaliser-animated-green.gif"])::before {content: var(--eq-spice) !important;}
 
 /*RevertX3*/
 /*Top Nav*/.Root__globalNav {background-color: #121212;  margin: unset !important; padding: calc(var(--panel-gap));}

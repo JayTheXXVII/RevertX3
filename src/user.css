@@ -101,7 +101,7 @@ aside#Desktop_PanelContainer_Id {pointer-events: auto;}
 /*RTL Scaling/ Alignment*/
 .oXO9_yYs6JyOwkBn8E4a {aspect-ratio: 1 / 1.13;}
 .oXO9_yYs6JyOwkBn8E4a:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {margin-bottom: 0px !important; align-self: end; min-inline-size: -webkit-fill-available;}
-.Root__right-sidebar:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {align-self:flex-end;justify-content: center; z-index: 5 !important;}
+.Root__right-sidebar:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {align-self:flex-end;justify-content: center; z-index: 12 !important;}
 /*More Options Button*/
 button.Button-sc-1dqy6lx-0.Button-buttonTertiary-small-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.yiRHu4qsmlXpKcnFQsm2[aria-haspopup="menu"] {display: none !important;}
 /*RTL Close Button*/.NowPlayingView:not(:hover):not(:has(:focus-visible)) .main-nowPlayingView-headerCloseButton {transform: unset !important;}

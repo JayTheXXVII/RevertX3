@@ -173,11 +173,11 @@ const CUSTOM_CSS = `
 .Root__globalNav .main-globalNav-searchContainer .main-globalNav-searchInputSection,
 .Root__globalNav .main-globalNav-searchContainer > form,
 .Root__globalNav ._b3hhmbWtOY8_1M1mM1H > form {
-  position: fixed;
-  top: var(--search-container-top, var(--panel-gap, 0.5rem)) !important;
-  left: var(--search-container-left, var(--panel-gap, 0.5rem)) !important;
+  position: relative;
+  top: auto !important;
+  left: auto !important;
   width: 22rem;
-  max-width: 25vw;
+  max-width: min-content;
   height: fit-content;
 }
 
@@ -334,6 +334,15 @@ const CUSTOM_CSS = `
 .Root__cinema-view.E3V79f6uQHeTnFxMhoju._3_LWNvctz6LK865o0Fvg {
   grid-row: global-nav / right-sidebar !important;
 }
+/*Jays Additions*/
+/*Left Sidebar Background*/.forceExpandSearchInput .main-globalNav-searchInputContainer input, .forceExpandSearchInput:hover .main-globalNav-searchInputContainer:hover input {background: black !important;}, button.Button-sc-1dqy6lx-0.Button-buttonTertiary-medium-iconOnly-useBrowserDefaultFocusStyle.e-91000-overflow-wrap-anywhere.e-91000-button-tertiary--icon-only.link-subtle.main-globalNav-navLink.main-globalNav-link-icon.custom-navlink {background: unset; background-color: unset;} .Root__globalNav .main-globalNav-navLink:hover, .main-globalNav-searchInputContainer .SFAoASy0S_LZJmYZ3Fh9:hover, .main-globalNav-searchInputContainer input:hover {background-color: rgba(var(--spice-rgb-selected-row), 0.01) !important;}
+/*Search Max Width*/.global-libraryX .main-globalNav-searchInputSection {min-width: -webkit-fill-available;}
+/*Search Position*/.Root__globalNav .fmZ0hU6ImbDQi5qGWLvF, .Root__globalNav .main-globalNav-searchContainer > span:nth-child(2), .Root__globalNav .main-globalNav-searchContainer > span[role="presentation"], .Root__globalNav .main-globalNav-searchContainer > .zugTpa7GhjPIQmTCgBzw, .Root__globalNav .main-globalNav-searchContainer .main-globalNav-searchInputSection, .Root__globalNav .main-globalNav-searchContainer > form, .Root__globalNav ._b3hhmbWtOY8_1M1mM1H > form {position: relative; top: auto !important; left: auto !important; width: 22rem; max-width: min-content; height: fit-content;}
+/*Search*/.main-globalNav-searchInputSection:before {content: "Search"; position: absolute; left: 4.4em; font-weight: bold; pointer-events: all; cursor: pointer;}
+/*Search Hover Background*/.Root__globalNav .fmZ0hU6ImbDQi5qGWLvF:hover, .Root__globalNav .main-globalNav-searchContainer > span:nth-child(2):hover, .Root__globalNav .main-globalNav-searchContainer > span[role="presentation"]:hover, .Root__globalNav .main-globalNav-searchContainer > .zugTpa7GhjPIQmTCgBzw:hover, .Root__globalNav .main-globalNav-searchContainer .main-globalNav-searchInputSection:hover, .Root__globalNav .main-globalNav-searchContainer > form:hover, .Root__globalNav ._b3hhmbWtOY8_1M1mM1H > form:hover {background-color: rgba(var(--spice-rgb-selected-row), 0.01) !important; border-radius: 0.5rem;} .main-globalNav-searchInputContainer .main-topBar-searchBar:focus {background: black !important;} .main-globalNav-searchInputContainer .main-topBar-searchBar, input.e-91000-form-input.e-91000-baseline.e-91000-form-control.encore-text-body-medium.main-topBar-searchBar.x-searchInput-searchInputInput {background: transparent;}
+/*Sidebar Spacer*/.main-globalNav-contentRightSpacer {display: none;}
+/*Centered Left Sidebar Collapsed Icons*/.spotify__container--is-desktop.spotify__os--is-macos .Root__globalNav, .spotify__container--is-desktop.spotify__os--is-windows .Root__globalNav, .Root__globalNav {padding: 0rem !important; overflow: visible;} div#global-nav-bar {contain: inline-size;}
+
 `;
 
 class LibXReborn {

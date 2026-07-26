@@ -4,6 +4,7 @@
 	"preview": "assets/logo.png",
 	"usercss": "src/user.css",
 	"schemes": "src/color.ini",
+	"main": "src/themes.js",
 	"readme": "README.md",
 	"authors": [
 		{

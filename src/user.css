@@ -34,6 +34,7 @@ div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !imp
 .marketplace-tabBar-nav {width: 80%;}
 .main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 18px !important;}
 .marketplace-content {margin-top: -40px;}
+/*Profile Bubbles*/.spotify__container--is-desktop.spotify__os--is-windows .Root__globalNav .main-topBar-topbarContentRight {right: 10.5rem;}
 /*Top Bar Drag*/
 .spotify__container--is-desktop:not(.fullscreen) .body-drag-top {display: flex;  position: fixed; -webkit-app-region: drag !important;}
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 12;}

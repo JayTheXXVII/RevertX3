@@ -26,11 +26,14 @@ img.X_HqPouENflGygaUXNus, ._HqPouENflGygaUXNus, [data-playing-indicator]:has([sr
 div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !important;}
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 9999;}
 [data-right-sidebar-hidden=true] .Root__main-view, .Root__main-view {margin-top: -64px;}
-.main-topBar-container {top: 0px; padding-top: 100px; padding-bottom: 28px;}
+.main-topBar-container {top: 0px; padding-top: 36px; padding-bottom: 20px;}
 .Root__globalNav {background-color: transparent;}
-.main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 15px !important;}
 .main-userWidget-box {background-color: transparent !important;}
-.main-home-filterChipsContainer {padding-top: 72px; position: sticky; z-index: 999999;}
+.main-home-filterChipsContainer {padding-top: 8px; position: sticky; z-index: 999999;}
+.search-searchCategory-contentArea {app-region: no-drag;}
+.marketplace-tabBar-nav {width: 80%;}
+.main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 18px !important;}
+.marketplace-content {margin-top: -40px;}
 /*Top Bar Drag*/
 .spotify__container--is-desktop:not(.fullscreen) .body-drag-top {display: flex;  position: fixed; -webkit-app-region: drag !important;}
 .Root__globalNav.Y5DSUJKOG6sI99LanZGL, .custom-navlinks-scrollable_container div[role="presentation"] > *:not(:last-child) {z-index: 12;}
@@ -62,8 +65,8 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 .Root__main-view:has(#SpicyLyricsPage), .Root__main-view:has(#SpicyLyricsPage) .KL8t9WB65UfUEPuTFAhO, .Root__main-view:has(#SpicyLyricsPage) .main-content-view, .Root__main-view:has(#SpicyLyricsPage) .main-view-container, .Root__main-view:has(#SpicyLyricsPage) .main-view-container__scroll-node, .Root__main-view:has(#SpicyLyricsPage) .main-view-container {height: 110% !important;}
 #SpicyLyricsPage .ViewControls .ViewControl {margin-top: 50px;}
 /*Marketplace*/
-.main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: -10px;}
-.marketplace-header {top: 114px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
+.main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: 0px;}
+.marketplace-header {top: 64px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
 /*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
 .main-topBar-topbarContentWrapper {max-width: 75%;}
 /*Playlist Page*/

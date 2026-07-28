@@ -30,7 +30,7 @@ div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !imp
 .Root__globalNav {background-color: transparent;}
 .main-userWidget-box {background-color: transparent !important;}
 .main-home-filterChipsContainer {padding-top: 8px; position: sticky; z-index: 999999;}
-.search-searchCategory-contentArea {app-region: no-drag;}
+.search-searchCategory-contentArea, .stats-nav-chip {app-region: no-drag;}
 .marketplace-tabBar-nav {width: 80%;}
 .main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 18px !important;}
 .marketplace-content {margin-top: -40px;}

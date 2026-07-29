@@ -502,3 +502,46 @@ class LibXReborn {
     window.Spicetify?.showNotification(msg, true);
   }
 })();
+
+(function() {
+    function checkAndApplyStyle() {
+        const headerElement = document.querySelector('.main-yourLibraryX-header.rlWB9lviQThKPFKIJSNA');
+        
+        let styleElement = document.getElementById('spotify-history-buttons-hide');
+        
+        if (!styleElement) {
+            styleElement = document.createElement('style');
+            styleElement.id = 'spotify-history-buttons-hide';
+            document.head.appendChild(styleElement);
+        }
+        
+        if (headerElement) {
+            styleElement.textContent = `
+                .link-subtle.main-globalNav-historyButtons {
+                    display: none !important;
+                }
+            `;
+        } else {
+            styleElement.textContent = `
+                .link-subtle.main-globalNav-historyButtons {
+                    display: initial !important;
+                }
+            `;
+        }
+    }
+    
+    checkAndApplyStyle();
+    
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                checkAndApplyStyle();
+            }
+        });
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+})();

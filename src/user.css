@@ -71,7 +71,7 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 .main-topBar-container:has(.marketplace-tabBar) {contain: unset; margin-top: 0px;}
 .marketplace-header {top: 64px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 120px;}
 /*.main-view-container__scroll-node-child {min-height: calc(-673px + 1700vh) !important;}*/
-.main-topBar-topbarContentWrapper {max-width: calc(70% / 1.1);}
+.main-topBar-topbarContentWrapper {max-width: calc(70% / 1.1); -webkit-app-region: drag;}
 /*Playlist Page*/
 /*main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}*/
 /*Album & Playlist Page*/

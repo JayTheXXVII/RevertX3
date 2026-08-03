@@ -76,8 +76,8 @@ div#main-view:has(.LyricsContainer) {margin-top: -68px;}
 /*main.hy5GSmgGlKpqnNN19mRv:has([data-testid="playlist-page"]/*, [data-testid="album-page"]*/) {padding-top: 48px;}*/
 /*Album & Playlist Page*/
 .main-entityHeader-container.main-entityHeader-containerNormal {min-height: calc(var(--min-fluid-height) * 1.2) !important;}
-.main-entityHeader-container.main-entityHeader-containerNormal {margin-top: 32px;}
-.main-entityHeader-backgroundColor {margin-top: -32px; min-height: -webkit-fill-available;}
+/*.main-entityHeader-container.main-entityHeader-containerNormal {margin-top: 32px;}*/
+.main-entityHeader-backgroundColor {/*margin-top: -32px;*/ min-height: -webkit-fill-available;}
 .main-cardImage-imageWrapper.gmNQCzeK5b2wiebA87rg {border-radius: 50%;}
 /*Settings Page*/
 [data-testid="settings-page"] {padding-top: 88px;}

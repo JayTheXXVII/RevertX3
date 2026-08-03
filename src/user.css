@@ -34,6 +34,8 @@ div#Desktop_LeftSidebar_Id {margin-top: -64px !important; padding-top: 64px !imp
 .marketplace-tabBar-nav {width: 80%;}
 .main-topBar-topbarContentContainer.contentSpacing {margin-bottom: 18px !important;}
 .marketplace-content {margin-top: -40px;}
+/*Left Sidebar Library View*/
+div#Desktop_LeftSidebar_Id {max-width: calc(var(--left-sidebar-width) * 1px);}
 /*Eternal Jukebox topbar*/.main-view-container:has([id="eternal-jukebox"]) {z-index: 10;}
 /*Profile Bubbles*/.spotify__container--is-desktop.spotify__os--is-windows .Root__globalNav .main-topBar-topbarContentRight {right: 10.5rem;}
 /*Top Bar Drag*/

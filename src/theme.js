@@ -328,9 +328,9 @@ const CUSTOM_CSS = `
 .Root__globalNav.global-libraryX {
   width: 100%;
 }
-.Root:has([data-right-sidebar-hidden=true] .yXlTmwlWtDebsivA1gM6) .Root__globalNav {
+/*.Root:has([data-right-sidebar-hidden=true] .yXlTmwlWtDebsivA1gM6) .Root__globalNav {
   grid-column: global-nav/right-sidebar !important;
-}
+}*/
 .Root__cinema-view.E3V79f6uQHeTnFxMhoju._3_LWNvctz6LK865o0Fvg {
   grid-row: global-nav / right-sidebar !important;
 }

@@ -99,7 +99,8 @@ aside#Desktop_PanelContainer_Id {pointer-events: auto;}
 /*Right Sidebar Left Layout Resizer*/
 .LayoutResizer__inline-start {visibility: hidden !important;}
 /*Album Art on Canvas*/
-.u_oJcTzbq1mJ8qfhBggZ .DyIlapjoCthUuSOzmJGD {opacity: 90% !important; visibility: visible !important; z-index: 1 !important;}
+/*.u_oJcTzbq1mJ8qfhBggZ .DyIlapjoCthUuSOzmJGD*/
+.u_oJcTzbq1mJ8qfhBggZ .main-nowPlayingView-coverArtVisualEnhancement {opacity: 85% !important; visibility: visible !important; z-index: 1 !important;}
 /*RTL Scaling/ Alignment*/
 .oXO9_yYs6JyOwkBn8E4a {aspect-ratio: 1 / 1.13;}
 .oXO9_yYs6JyOwkBn8E4a:has([aria-label="Queue"], [Aria-label="Friend Activity"],[Aria-label="Now playing view"], [aria-label="Connect to a device"]) {margin-bottom: 0px !important; align-self: end; min-inline-size: -webkit-fill-available;}
